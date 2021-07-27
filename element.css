@@ -1,0 +1,19 @@
+p,h4,a{
+    color:hotpink;
+}
+li{
+    list-style-type:symbols() ;
+}
+h1+p{
+    color:orangered;
+ }
+ a:hover{
+     color:blueviolet;
+     text-decoration-style: wavy;
+
+ }
+ body h1+h2 .special{
+     color:aquamarine;
+     background-color: black;
+     padding: 5px;
+ }

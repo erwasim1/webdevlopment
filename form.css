@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: rgb(182, 163, 163);
+    padding:5px 20px 15px 20px;
+    border:1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="checkbox"],
+input[type="submit"],
+input[type="date"],
+input[type="reset"],
+.gender
+ { background-color: ghostwhite;
+width: 100%;
+padding: 12px;
+border:1px solid ghostwhite;
+border-radius: 5px;
+}
+.main{
+    text-align: center;
+    font-style: italic;
+    padding: 10 px;
+}
+input[type="radio"]{
+    width:100%;
+    border: 1px solid ghostwhite;
+    border-radius :5px;
+    padding:12px 20px ;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms
+
+    </title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <div class="container">
+    <h3 class="main">ADMISSION FORM</h3> 
+    <form action="backend.php">
+    <div>
+     NAME : <input type="text"name="Myname" placeholder="ram das">
+    </div>
+    <br>
+    <div>
+        profession : <input type="text"name="Myprof">
+       </div>
+       <br>
+       <div>
+        EMAIL : <input type="text"name="Myemail">
+       </div>
+       <br>
+       <div>
+           DATE(dd,mm,yy)<input  type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            BOUNUS: <input type="number"name="mynumber">
+        </div>
+        <br>
+        <div>
+            ARE U ELIGIBLE?<input type="checkbox" name="eligibility">
+        </div>
+        <br>
+        <div class="gender">
+            GENDER : MALE<input type="radio"name="myGender">FEMALE<input type="radio"name="myGender">OTHER<input type="radio"name="myGender">
+            </div>
+            <br>
+            <div>
+           <input type="submit" value="submit now">
+           <input type="RESET" value="RESET now">
+             
+        
+        </div>
+        <br>
+        <div>
+            Write about your self:<textarea name="mytext" cols="30"rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">
+                CAR
+
+            </label>
+            <select name="mycar"id="car">
+                <option value ="ind">indica</option>
+                <option  value="swf" selected>swift</option>
+                <select>
+                    <br>
+        </div>
+    </form>
+       </div>
+</body>
+</html>

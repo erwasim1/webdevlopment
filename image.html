@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <link rel="stylesheet" href="image.css">
+    <style>
+    body{
+      text-align: center;
+      background-color: aliceblue;
+    }
+    .clip_eclipse{
+      clip-path: ellipse(33% 40% at 50% 50%);
+    }
+    .clip_cross{
+        clip-path: polygon(2% 10%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 92% 11%, 90% 50%, 65% 50%, 82% 100%, 22% 100%, 35% 50%, 10% 50%);
+    }
+    body,html{
+        height: 100%;
+    }
+    img{
+        height: 75%;
+    }
+    </style>
+</head>
+<body>
+    <img class="clip_eclipse" src="WhatsApp Image 2021-03-25 at 10.48.36 PM.jpeg" alt="">
+    <img class="clip_cross" src="WhatsApp Image 2021-03-25 at 10.48.36 PM.jpeg" alt="">
+    
+</body>
+</html>
